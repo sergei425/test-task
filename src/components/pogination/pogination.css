@@ -1,0 +1,25 @@
+.pogination  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding : 15px;
+}
+
+.pogination span {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #deb887;
+  cursor: pointer;
+} 
+
+.active {
+  background-color: #163d3d;
+  color: #deb887;
+  font-weight: bold;
+}
+
